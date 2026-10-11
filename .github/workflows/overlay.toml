@@ -1563,6 +1563,14 @@ github = "DetachHead/rebased"
 use_latest_release = true
 autobump = true
 
+["dev-vcs/sourcegit"]
+source = "github"
+github = "sourcegit-scm/sourcegit"
+use_latest_release = true
+prefix = "v"
+github_account = "VirgilMing"
+# Manual bumps: verify the Avalonia patch, AvaloniaEdit commit and NuGet lists.
+
 ["dev-vcs/sourcegit-bin"]
 source = "github"
 github = "sourcegit-scm/sourcegit"
